@@ -100,6 +100,9 @@
   width: 40px;
   height: 40px;
   background-color: initial;
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAAoCAYAAAB5LPGYAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAp0lEQVR42u3ZQQ7CMAwEQMMj+0g+udwQUgRK6SEunTn3YNkrK0mrAAC4mpsWjPKovBq09etR6q2+njPMbMYE8EPwhkY1CGLqS309Zpm9WRPAifB1CGFqor6188zEN0N9d9HDGfAE22/lFkztqG/NTPNr5mxAlhJABBBnQOdAt2C3YGxAW7Dh9pvZgh6i/zSIfsUdDqKMAQAAAAAAAAAAAAAAAADAyT0BDVsqEjy/cvcAAAAASUVORK5CYII=);
 }
 
 .widget-clickme {
