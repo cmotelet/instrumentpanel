@@ -22,7 +22,8 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               cacheDirectory: true,
-              presets: ['react', 'env']
+              presets: ['@babel/preset-react', '@babel/preset-env'],
+              plugins: []
             }
           }
       }
@@ -64,6 +65,7 @@ module.exports = {
     new webpack.DefinePlugin({
       VERSION: JSON.stringify(require("./package.json").version)
     })
+//    new CompressionPlugin()
   ],
   stats: {
     children: false,
