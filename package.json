@@ -36,6 +36,7 @@
     "@babel/register": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "core-js": "^3.2.1",
     "bacon.model": "^0.1.12",
     "baconjs": "^2.0.10",
     "bluebird": "^3.5.0",
@@ -54,5 +55,6 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.2",
     "marked": "^0.6.0"
-  }
+  },
+  "dependencies": {}
 }
