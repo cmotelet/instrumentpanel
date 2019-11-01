@@ -274,6 +274,10 @@ label {
  color: var(--text-color);
 }
 
+.center-text {
+ text-align: center;
+}
+
 @media (min-width: 620px) {
  .items .item {
   max-width: calc(50% - 10px);
